@@ -27,6 +27,7 @@ body {
   row-gap: 0.7rem;
   place-items: center;
   border-radius: 0.5rem;
+  width: 400px;
 }
 
 .title {
