@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/main.js" defer></script>
+    <title>Login Form</title>
+  </head>
+  <body>
+    <main class="main__container">
+      <h2 class="title">Create Account</h2>
+      <form class="form" id="form">
+        <div class="inputs">
+          <input type="text" placeholder="First Name" id="firstname" />
+          <small>Error message</small>
+        </div>
+        <div class="inputs">
+          <input type="text" placeholder="Last Name" id="lastname" />
+          <small>Error message</small>
+        </div>
+        <div class="inputs">
+          <input type="email" placeholder="Email Address" id="email" />
+          <small>Error message</small>
+        </div>
+        <div class="inputs">
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            autocomplete="on"
+          />
+          <small>Error message</small>
+        </div>
+        <div class="inputs">
+          <input
+            type="password"
+            placeholder="Re-enter Password"
+            id="password2"
+            autocomplete="on"
+          />
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
